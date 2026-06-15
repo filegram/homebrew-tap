@@ -1,6 +1,6 @@
 cask "filegram" do
-  version "0.2.4"
-  sha256 "69e44f3e1f04dd976a8b75309d8dc8f7d2901099b15dfcf45a8d7fce8460c431"
+  version "0.2.5"
+  sha256 "4e34a0751138a026fd8a315c218883ed9b4f9f7584194b014bd44d1a36dee3af"
 
   url "https://github.com/filegram/filegram-desktop/releases/download/v#{version}/filegram-macos-universal.dmg",
       verified: "github.com/filegram/filegram-desktop/"
