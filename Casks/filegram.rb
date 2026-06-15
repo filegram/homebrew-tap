@@ -16,6 +16,7 @@ cask "filegram" do
   depends_on macos: :big_sur
 
   app "Filegram.app"
+  binary "#{appdir}/Filegram.app/Contents/MacOS/filegram"
 
   zap trash: [
     "~/Library/Preferences/io.github.stan220.filegram.plist",
